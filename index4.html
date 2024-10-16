@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <div>
+         <img src="logogm.jpg" class="logo-mania">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Todos os Produtos</a></li>
+                <li><a href="index3.html">Início</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Como Comprar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="todas-imagens">
+    
+            <img src="exemplo1.jpg" class="exemplo1" >
+            <img src="exemplo2.jpg" class="exemplo2">
+            <img src="exemplo3.jpg" class="exemplo3">
+
+        </section>
+        <img src="imagem44.jpg" class="exemplo4">
+
+        <section class="cart">
+            <h2>Carrinho de Compras</h2>
+            <div class="cart-item">
+                <img src="exemplo1.jpg" alt="Camiseta Nike Manga Longa">
+                <div class="item-details">
+                    <p>Camiseta Nike Manga Longa</p>
+                    <span class="price"><s>R$320,00</s> 160,00</span>
+                    <div class="quantity">
+                        <button>-</button>
+                        <input type="number" value="1">
+                        <button>+</button>
+                    </div>
+                </div>
+                <div class="remove-item">
+                    <button>🗑️</button>
+                </div>
+            </div>
+
+            <div class="subtotal">
+                <p>Frete grátis a partir de R$300,00</p>
+                <p>Subtotal (sem frete): R$100,00</p>
+            </div>
+
+            <div class="frete">
+                <label for="cep"> <img src="caminhão.jpg" class="caminhão">  Meios de envio</label>
+                <input type="text" id="cep" placeholder="Seu CEP">
+                <button>Calcular</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
